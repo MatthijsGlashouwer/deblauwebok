@@ -1,0 +1,38 @@
+# Git
+.git
+.github
+.gitattributes
+.gitignore
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+docker-readme.md
+
+# Node.js
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Laravel
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+
+# IDE files
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/public/build
+/public/hot
+/public/storage
+/storage/*.key 
